@@ -22,6 +22,14 @@ function Navbar() {
                     Login
                 </Link>
             </li>
+            <li>
+                <Link
+                    to='/Dashboard'
+                    className={currentPage === '/Dashboard' ? 'nav-link active' : 'nav-link'}
+                >
+                    Dashboard
+                </Link>
+            </li>
         </ul>
     );
 };

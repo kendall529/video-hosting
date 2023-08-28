@@ -1,5 +1,4 @@
 import React from 'react';
-import { isDepsOptimizerEnabled } from 'vite';
 // import logo from '../assets/'
 
 
@@ -25,3 +24,5 @@ const Dashboard = () => {
         </div>
     )
 }
+
+export default Dashboard;
