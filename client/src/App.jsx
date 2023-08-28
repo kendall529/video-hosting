@@ -6,8 +6,9 @@ import {
   BrowserRouter as Router, Routes, Route
 } from 'react-router-dom';
 import  Navbar  from './components/Navbar'
-import Dashboard from './components/Dashboard';
+import Home from './components/Home';
 import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
 
@@ -19,8 +20,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   )
