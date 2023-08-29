@@ -1,4 +1,5 @@
 import React from 'react';
+import ActiveUsersList from './ActiveUsersList';
 // import logo from '../assets/'
 
 
@@ -15,7 +16,7 @@ const Dashboard = () => {
             </div>
             <div className='dashboard-right-section'>
                 <div className='dashboard-active-users-list'>
-                    users
+                    <ActiveUsersList />
                 </div>
                 <div className='dashboard-logo-container'>
                     <img src="..." alt="..." />
